@@ -60,7 +60,7 @@
       <roundCorners>0.020</roundCorners>
     </image>
     <text name="gridtile">
-      <color>D0D0D0D0</color>
+      <color>D0D0D000</color>
       <backgroundColor>00000000</backgroundColor>
       <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
       <fontSize>0.026</fontSize>
@@ -74,7 +74,7 @@
     </text>
     <text name="gridtile:selected">
       <singleLineScroll>false</singleLineScroll>
-      <color>FFFFFF</color>
+      <color>FFFFFF00</color>
     </text>
     <image name="gridtile.favorite">
       <path>./art/favorite.png</path>

@@ -10,9 +10,13 @@
       <margin>0.008 0.010</margin>
     </imagegrid>
     <text name="gridtile">
+      <color>D0D0D0D0</color>
       <fontSize>0.020</fontSize>
       <size>1 0.18</size>
       <padding>0 0.01 0 0.1</padding>
+    </text>
+    <text name="gridtile:selected">
+      <color>FFFFFF</color>
     </text>
   </customView>
 </theme>

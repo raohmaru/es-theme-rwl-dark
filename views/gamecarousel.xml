@@ -9,28 +9,10 @@
   -->
   <formatVersion>7</formatVersion>
   <view name="gamecarousel" displayName="${gameCarouselViewName}">
-    <image name="backgroundOpaque" extra="true">
-      <pos>0 0</pos>
-      <size>1 0.160</size>
-      <origin>0 0</origin>
-      <path>./../art/white.png</path>
-      <color>000000FF</color>
-      <zIndex>11</zIndex>
-    </image>
-    <image name="backgroundHeader" extra="true">
-      <tile>false</tile>
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <path>./art/bg.png</path>
-      <color>${backgroundColor}</color>
-      <zIndex>12</zIndex>
-      <clipRect>0 0 1 0.160</clipRect>
-    </image>
     <gamecarousel name="gamecarousel">
       <type>vertical_wheel</type>
-      <pos>0 0.1</pos>
-      <size>0.52 0.9</size>
+      <pos>0 0.16</pos>
+      <size>0.52 0.775</size>
       <logoScale>3.5</logoScale>
       <logoSize>0.15 0.15</logoSize>
       <logoAlignment>top</logoAlignment>
@@ -49,7 +31,7 @@
       <glowSize>4</glowSize>
       <lineSpacing>1.0</lineSpacing>
     </text>
-    <control name="gamecarouselLogo,gamecarouselLogoText">
+    <!-- <control name="gamecarouselLogo,gamecarouselLogoText">
       <storyboard event="activate">
         <animation property="opacity" to="1" duration="150" mode="EaseOut"/>
         <animation property="offsetY" to="-0.19" begin="1400" duration="450" mode="bump"/>
@@ -64,7 +46,7 @@
         <animation property="opacity" to="0" begin="1400" duration="600" mode="EaseOut"/>
         <animation property="offsetY" to="0" duration="100" mode="EaseOut"/>
       </storyboard>
-    </control>
+    </control> -->
     <video name="md_video">
       <pos>0.76 0.408</pos>
       <maxSize>0.46 0.436</maxSize>
@@ -86,7 +68,7 @@
         <outerShadowColor>00000050</outerShadowColor>
       </shader>
     </video>
-    <image name="md_thumbnail">
+    <!-- <image name="md_thumbnail">
       <pos>0.25 0.72</pos>
       <maxSize>0.40 0.35</maxSize>
       <origin>0.5 0.5</origin>
@@ -109,28 +91,36 @@
         <animation property="opacity" begin="1400" from="0" to="1" duration="400" mode="EaseOut"/>
         <animation property="scale" begin="1400" from="0" to="1" duration="400" mode="bump"/>
       </storyboard>
-    </image>
+    </image> -->
     <image name="md_fanart">
-      <pos>0.5 0.55</pos>
-      <minSize>1 0.9</minSize>
+      <pos>0.475 0.55</pos>
+      <minSize>0.95 0.78</minSize>
       <origin>0.5 0.5</origin>
-      <color>FFFFFF80</color>
+      <color>FFFFFF60</color>
       <colorEnd>FFFFFF30</colorEnd>
       <gradientType>horizontal</gradientType>
       <linearSmooth>true</linearSmooth>
       <autoFade>false</autoFade>
       <zIndex>9</zIndex>
     </image>
-    <image name="detailsBk" extra="true">
-      <path>./../art/white.png</path>
-      <color>00000000</color>
-      <colorEnd>00000090</colorEnd>
-      <gradientType>horizontal</gradientType>
+    <!-- <image name="background">
+      <tile>false</tile>
+      <size>1 1</size>
+      <pos>0 0</pos>
       <origin>0 0</origin>
-      <pos>0.53 0.16</pos>
-      <size>0.47 0.774</size>
-      <zIndex>12</zIndex>
-    </image>
+      <path>./../art/bg.png</path>
+      <color>${backgroundColor}</color>
+      <zIndex>10</zIndex>
+    </image> -->
+    <!-- <image name="consolebk" extra="true" ifSubset="systembackground:consoles">
+      <path>./../art/background/${system.theme}.jpg</path>
+      <linearSmooth>true</linearSmooth>
+      <pos>0.5 0.5</pos>
+      <minSize>1 1</minSize>
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF12</color>
+      <zIndex>11</zIndex>
+    </image> -->
     <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <storyboard>
         <animation property="opacity" from="0" duration="350" mode="easeOut"/>

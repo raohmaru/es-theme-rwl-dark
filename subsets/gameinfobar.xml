@@ -247,6 +247,26 @@
     <image name="md_notkidgame">
       <color>80808000</color>
     </image>
+    <text name="md_playcount">
+      <origin>0.5 0.5</origin>
+      <fontPath>./../../art/fonts/Cabin-Bold.ttf</fontPath>
+      <text>0</text>
+      <size>0.03 0.03</size>
+      <pos>0.976 0.52</pos>
+      <alignment>center</alignment>
+      <fontSize>0.030</fontSize>
+      <color>dddddd</color>
+    </text>
+    <text name="md_gametime">
+      <origin>0.5 0.5</origin>
+      <fontPath>./../../art/fonts/Cabin-Bold.ttf</fontPath>
+      <text>22</text>
+      <size>0.03 0.03</size>
+      <pos>0.976 0.54</pos>
+      <alignment>center</alignment>
+      <fontSize>0.015</fontSize>
+      <color>dddddd</color>
+    </text>
     <image name="md_hidden">
       <origin>0.5 0.5</origin>
       <pos>0.976 0.92</pos>

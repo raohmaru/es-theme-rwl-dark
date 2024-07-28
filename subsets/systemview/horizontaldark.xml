@@ -103,14 +103,12 @@
     </image>
     -->
     <text name="systemInfo">
-      <pos>0 0.64</pos>
+      <pos>0 0.52</pos>
       <size>1 0.25</size>
       <backgroundColor>00000000</backgroundColor>
-      <color>${systemInfoColor}</color>
+      <color>${baseColor}</color>
       <glowColor>${glowColor}</glowColor>
       <glowSize>2</glowSize>
-      <glowSize>1</glowSize>
-      <reflexion>0.20 0.0</reflexion>
       <fontPath>./../../art/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.027</fontSize>
     </text>

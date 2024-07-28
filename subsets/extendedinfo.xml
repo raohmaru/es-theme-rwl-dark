@@ -8,172 +8,180 @@
 {binding:total}, {binding:played}, {binding:favorites}, {binding:hidden}, {binding:gamesPlayed}
 {binding:mostPlayed}, {binding:lastPlayedDate}
 -->
-      <text>Games : {binding:total}
-Favorites : {binding:favorites}
-Games played : {binding:gamesPlayed}
-Most played : {binding:mostPlayed}
-Last played : {binding:lastPlayedDate}</text>
-      <text lang="ar">ألعاب : {binding:total}
-المفضلة : {binding:favorites}
-تم لعب المباريات : {binding:gamesPlayed}
-الأكثر لعبا : {binding:mostPlayed}
-اخر لعبه : {binding:lastPlayedDate}</text>
-      <text region="br">Número de jogos : {binding:total}
-Favoritos : {binding:favorites}
-Jogos Jogados : {binding:gamesPlayed}
-Mais jogados : {binding:mostPlayed}
-Última jogada : {binding:lastPlayedDate}</text>
-      <text lang="ca">Nombre de jocs : {binding:total}
-Preferits : {binding:favorites}
-Jocs jugats : {binding:gamesPlayed}
-Més jugats : {binding:mostPlayed}
-Últim moviment : {binding:lastPlayedDate}</text>
-      <text lang="de">Anzahl von Spielen : {binding:total}
-Favoriten : {binding:favorites}
-Spiele gespielt : {binding:gamesPlayed}
-Meist gespielt : {binding:mostPlayed}
-Letzter Zug : {binding:lastPlayedDate}</text>
-      <text lang="en">Games : {binding:total}
-Favorites : {binding:favorites}
-Games played : {binding:gamesPlayed}
-Most played : {binding:mostPlayed}
-Last played : {binding:lastPlayedDate}</text>
-      <text lang="en_GB">Games : {binding:total}
-Favorites : {binding:favorites}
-Games played : {binding:gamesPlayed}
-Most played : {binding:mostPlayed}
-Last played : {binding:lastPlayedDate}</text>
-      <text lang="es">Número de juegos : {binding:total}
-Favoritos : {binding:favorites}
-Jugados : {binding:gamesPlayed}
-El más jugado : {binding:mostPlayed}
-Última partida : {binding:lastPlayedDate}</text>
-      <text lang="fr">Nombre de jeux : {binding:total}
-Favoris : {binding:favorites}
-Jeux joués : {binding:gamesPlayed}
-Le plus joué : {binding:mostPlayed}
-Dernière partie : {binding:lastPlayedDate}</text>
-      <text lang="el">Αριθμός παιχνιδιών : {binding:total}
-Αγαπημένα : {binding:favorites}
-Παιχνίδια που παίχτηκαν : {binding:gamesPlayed}
-Περισσότερα παίχτηκαν : {binding:mostPlayed}
-Τελευταία κίνηση : {binding:lastPlayedDate}</text>
-      <text lang="hu">Játékok : {binding:total}
-Kedvencek : {binding:favorites}
-Játszottak : {binding:gamesPlayed}
-Gyakran játszott : {binding:mostPlayed}
-Utoljára játszott : {binding:lastPlayedDate}</text>
-      <text lang="it">Numero di giochi : {binding:total}
-Preferiti : {binding:favorites}
-Giochi giocati : {binding:gamesPlayed}
-Più giocati : {binding:mostPlayed}
-Ultimo giocato : {binding:lastPlayedDate}</text>
-      <text lang="jp">ゲーム数 : {binding:total}
-お気に入り : {binding:favorites}
-プレイしたゲーム : {binding:gamesPlayed}
-最もプレイされた : {binding:mostPlayed}
-最後の動き : {binding:lastPlayedDate}</text>
-      <text lang="ko">게임 수 : {binding:total}
-즐겨찾기 : {binding:favorites}
-플레이한 게임 : {binding:gamesPlayed}
-가장 많이 플레이한 것 : {binding:mostPlayed}
-마지막 플레이 {binding:lastPlayedDate}</text>
-      <text lang="nl">Aantal spellen : {binding:total}
-Favorieten : {binding:favorites}
-Spellen gespeeld : {binding:gamesPlayed}
-Meest gespeeld : {binding:mostPlayed}
-Laatste zet : {binding:lastPlayedDate}</text>
-      <text lang="pl">Liczba gier : {binding:total}
-Ulubione : {binding:favorites}
-Rozegrane gry : {binding:gamesPlayed}
-Najczęściej grane : {binding:mostPlayed}
-Ostatnio grane : {binding:lastPlayedDate}</text>
-      <text lang="pt">Número de jogos : {binding:total}
-Favoritos : {binding:favorites}
-Jogos jogados : {binding:gamesPlayed}
-Mais jogados : {binding:mostPlayed}
-Recém jogado : {binding:lastPlayedDate}</text>
-      <text lang="pt_BR">Número de jogos : {binding:total}
-Favoritos : {binding:favorites}
-Jogos Jogados : {binding:gamesPlayed}
-Mais jogados : {binding:mostPlayed}
-Última jogada : {binding:lastPlayedDate}</text>
-      <text lang="ptbr">Número de jogos : {binding:total}
-Favoritos : {binding:favorites}
-Jogos Jogados : {binding:gamesPlayed}
-Mais jogados : {binding:mostPlayed}
-Última jogada : {binding:lastPlayedDate}</text>
-      <text lang="ru">Количество игр : {binding:total}
-Избранное : {binding:favorites}
-Игр сыграно : {binding:gamesPlayed}
-Часто запускаемое : {binding:mostPlayed}
-Последний запуск : {binding:lastPlayedDate}</text>
-      <text lang="uk">Кількість ігор : {binding:total}
-Вибране : {binding:favorites}
-Зіграні ігри : {binding:gamesPlayed}
-Більше грав : {binding:mostPlayed}
-Останній хід : {binding:lastPlayedDate}</text>
-      <text lang="zh">游戏数量 : {binding:total}
-最爱的游戏 : {binding:favorites}
-玩过的游戏 : {binding:gamesPlayed}
-常玩的游戏 : {binding:mostPlayed}
-最后游玩 : {binding:lastPlayedDate}</text>
-      <alignment>center</alignment>
+      <text>Games: {binding:total}
+Games played: {binding:gamesPlayed}
+Most played: {binding:mostPlayed}
+Last played: {binding:lastPlayedDate}
+Game time: {binding:gameTime}</text>
+      <text lang="ar">ألعاب: {binding:total}
+تم لعب المباريات: {binding:gamesPlayed}
+الأكثر لعبا: {binding:mostPlayed}
+اخر لعبه: {binding:lastPlayedDate}
+وقت اللعب: {binding:gameTime}</text>
+      <text region="br">Número de jogos: {binding:total}
+Jogos Jogados: {binding:gamesPlayed}
+Mais jogados: {binding:mostPlayed}
+Última jogada: {binding:lastPlayedDate}
+Hora do jogo: {binding:gameTime}</text>
+      <text lang="ca">Nombre de jocs: {binding:total}
+Jocs jugats: {binding:gamesPlayed}
+Més jugats: {binding:mostPlayed}
+Últim moviment: {binding:lastPlayedDate}
+Temps de joc: {binding:gameTime}</text>
+      <text lang="de">Anzahl von Spielen: {binding:total}
+Spiele gespielt: {binding:gamesPlayed}
+Meist gespielt: {binding:mostPlayed}
+Letzter Zug: {binding:lastPlayedDate}
+Spielzeit: {binding:gameTime}</text>
+      <text lang="en">Games: {binding:total}
+Games played: {binding:gamesPlayed}
+Most played: {binding:mostPlayed}
+Last played: {binding:lastPlayedDate}
+Game time: {binding:gameTime}</text>
+      <text lang="en_GB">Games: {binding:total}
+Games played: {binding:gamesPlayed}
+Most played: {binding:mostPlayed}
+Last played: {binding:lastPlayedDate}
+Game time: {binding:gameTime}</text>
+      <text lang="es">Número de juegos: {binding:total}
+Jugados: {binding:gamesPlayed}
+El más jugado: {binding:mostPlayed}
+Última partida: {binding:lastPlayedDate}
+Tiempo de juego: {binding:gameTime}</text>
+      <text lang="fr">Nombre de jeux: {binding:total}
+Jeux joués: {binding:gamesPlayed}
+Le plus joué: {binding:mostPlayed}
+Dernière partie: {binding:lastPlayedDate}
+Temps de jeu: {binding:gameTime}</text>
+      <text lang="el">Αριθμός παιχνιδιών: {binding:total}
+Παιχνίδια που παίχτηκαν: {binding:gamesPlayed}
+Περισσότερα παίχτηκαν: {binding:mostPlayed}
+Τελευταία κίνηση: {binding:lastPlayedDate}
+Ώρα παιχνιδιού: {binding:gameTime}</text>
+      <text lang="hu">Játékok: {binding:total}
+Játszottak: {binding:gamesPlayed}
+Gyakran játszott: {binding:mostPlayed}
+Utoljára játszott: {binding:lastPlayedDate}
+Játékidő: {binding:gameTime}</text>
+      <text lang="it">Numero di giochi: {binding:total}
+Giochi giocati: {binding:gamesPlayed}
+Più giocati: {binding:mostPlayed}
+Ultimo giocato: {binding:lastPlayedDate}
+Tempo di gioco: {binding:gameTime}</text>
+      <text lang="jp">ゲーム数: {binding:total}
+プレイしたゲーム: {binding:gamesPlayed}
+最もプレイされた: {binding:mostPlayed}
+最後の動き: {binding:lastPlayedDate}
+ゲームの時間: {binding:gameTime}</text>
+      <text lang="ko">게임 수: {binding:total}
+플레이한 게임: {binding:gamesPlayed}
+가장 많이 플레이한 것: {binding:mostPlayed}
+마지막 플레이 {binding:lastPlayedDate}
+게임 시간: {binding:gameTime}</text>
+      <text lang="nl">Aantal spellen: {binding:total}
+Spellen gespeeld: {binding:gamesPlayed}
+Meest gespeeld: {binding:mostPlayed}
+Laatste zet: {binding:lastPlayedDate}
+Game tijd: {binding:gameTime}</text>
+      <text lang="pl">Liczba gier: {binding:total}
+Rozegrane gry: {binding:gamesPlayed}
+Najczęściej grane: {binding:mostPlayed}
+Ostatnio grane: {binding:lastPlayedDate}
+Czas gry: {binding:gameTime}</text>
+      <text lang="pt">Número de jogos: {binding:total}
+Jogos jogados: {binding:gamesPlayed}
+Mais jogados: {binding:mostPlayed}
+Recém jogado: {binding:lastPlayedDate}
+Hora do jogo: {binding:gameTime}</text>
+      <text lang="pt_BR">Número de jogos: {binding:total}
+Jogos Jogados: {binding:gamesPlayed}
+Mais jogados: {binding:mostPlayed}
+Última jogada: {binding:lastPlayedDate}
+Hora do jogo: {binding:gameTime}</text>
+      <text lang="ptbr">Número de jogos: {binding:total}
+Jogos Jogados: {binding:gamesPlayed}
+Mais jogados: {binding:mostPlayed}
+Última jogada: {binding:lastPlayedDate}
+Hora do jogo: {binding:gameTime}</text>
+      <text lang="ru">Количество игр: {binding:total}
+Игр сыграно: {binding:gamesPlayed}
+Часто запускаемое: {binding:mostPlayed}
+Последний запуск: {binding:lastPlayedDate}
+Время игры: {binding:gameTime}</text>
+      <text lang="uk">Кількість ігор: {binding:total}
+Зіграні ігри: {binding:gamesPlayed}
+Більше грав: {binding:mostPlayed}
+Останній хід: {binding:lastPlayedDate}
+Час гри: {binding:gameTime}</text>
+      <text lang="zh">游戏数量: {binding:total}
+玩过的游戏: {binding:gamesPlayed}
+常玩的游戏: {binding:mostPlayed}
+最后游玩: {binding:lastPlayedDate}
+游戏时间: {binding:gameTime}</text>
+      <alignment>left</alignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
-      <fontSize>0.024</fontSize>
-      <pos>0.03 0.64</pos>
-      <size>0.94 0.28</size>
+      <fontSize>0.020</fontSize>
+      <lineSpacing>1.5</lineSpacing>
+      <pos>1 0.72</pos>
+      <size>0.28 h</size>
       <zIndex>100</zIndex>
       <color>D0D0D0FF</color>
       <glowColor>000000A0</glowColor>
       <glowSize>1</glowSize>
+      <backgroundColor>00000090</backgroundColor>
+      <padding>0.02 0 0.02 0.02</padding>
+      <opacity>0</opacity>
+      <storyboard>
+        <animation property="x" from="1" to="0.72" duration="600" begin="1000" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="500" begin="1000" mode="linear"/>
+      </storyboard>
     </text>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
-      <text>Collections : {binding:subSystems}</text>
-      <text lang="ar">عدد المجموعات : {binding:subSystems}</text>
-      <text region="br">Número de coleções : {binding:subSystems}</text>
-      <text lang="ca">Nombre de col·leccions : {binding:subSystems}</text>
-      <text lang="de">Anzahl der Sammlungen : {binding:subSystems}</text>
-      <text lang="el">Αριθμός συλλογών : {binding:subSystems}</text>
-      <text lang="en">Number of collections : {binding:subSystems}</text>
-      <text lang="en_GB">Number of collections : {binding:subSystems}</text>
-      <text lang="es">Número de colecciones : {binding:subSystems}</text>
-      <text lang="fr">Nombre de collections : {binding:subSystems}</text>
-      <text lang="hu">Gyűjtemények száma : {binding:subSystems}</text>
-      <text lang="it">Numero di raccolte : {binding:subSystems}</text>
-      <text lang="jp">コレクション数 : {binding:subSystems}</text>
-      <text lang="ko">컬렉션 개수 : {binding:subSystems}</text>
-      <text lang="nl">Aantal verzamelingen : {binding:subSystems}</text>
-      <text lang="pl">Liczba kolekcji : {binding:subSystems}</text>
-      <text lang="pt">Número de coleções : {binding:subSystems}</text>
-      <text lang="pt_BR">Número de coleções : {binding:subSystems}</text>
-      <text lang="ru">Количество коллекций : {binding:subSystems}</text>
-      <text lang="uk">Кількість колекцій : {binding:subSystems}</text>
-      <text lang="zh">收集的数量 : {binding:subSystems}</text>
+      <text>Collections: {binding:subSystems}</text>
+      <text lang="ar">عدد المجموعات: {binding:subSystems}</text>
+      <text region="br">Número de coleções: {binding:subSystems}</text>
+      <text lang="ca">Nombre de col·leccions: {binding:subSystems}</text>
+      <text lang="de">Anzahl der Sammlungen: {binding:subSystems}</text>
+      <text lang="el">Αριθμός συλλογών: {binding:subSystems}</text>
+      <text lang="en">Number of collections: {binding:subSystems}</text>
+      <text lang="en_GB">Number of collections: {binding:subSystems}</text>
+      <text lang="es">Número de colecciones: {binding:subSystems}</text>
+      <text lang="fr">Nombre de collections: {binding:subSystems}</text>
+      <text lang="hu">Gyűjtemények száma: {binding:subSystems}</text>
+      <text lang="it">Numero di raccolte: {binding:subSystems}</text>
+      <text lang="jp">コレクション数: {binding:subSystems}</text>
+      <text lang="ko">컬렉션 개수: {binding:subSystems}</text>
+      <text lang="nl">Aantal verzamelingen: {binding:subSystems}</text>
+      <text lang="pl">Liczba kolekcji: {binding:subSystems}</text>
+      <text lang="pt">Número de coleções: {binding:subSystems}</text>
+      <text lang="pt_BR">Número de coleções: {binding:subSystems}</text>
+      <text lang="ru">Количество коллекций: {binding:subSystems}</text>
+      <text lang="uk">Кількість колекцій: {binding:subSystems}</text>
+      <text lang="zh">收集的数量: {binding:subSystems}</text>
     </text>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots'">
-      <text>Items : {binding:total}</text>
-      <text lang="ar">عدد العناصر : {binding:total}</text>
-      <text region="br">Número de elementos : {binding:total}</text>
-      <text lang="ca">Nombre d'elements : {binding:total}</text>
-      <text lang="de">Anzahl der Gegenstände : {binding:total}</text>
-      <text lang="el">Αριθµός στοιχείων : {binding:total}</text>
-      <text lang="en">Number of items : {binding:total}</text>
-      <text lang="en_GB">Number of items : {binding:total}</text>
+      <text>Items: {binding:total}</text>
+      <text lang="ar">عدد العناصر: {binding:total}</text>
+      <text region="br">Número de elementos: {binding:total}</text>
+      <text lang="ca">Nombre d'elements: {binding:total}</text>
+      <text lang="de">Anzahl der Gegenstände: {binding:total}</text>
+      <text lang="el">Αριθµός στοιχείων: {binding:total}</text>
+      <text lang="en">Number of items: {binding:total}</text>
+      <text lang="en_GB">Number of items: {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
-      <text lang="fr">Nombre d'élements : {binding:total}</text>
-      <text lang="hu">Elemek száma : {binding:total}</text>
-      <text lang="it">Numero di elementi : {binding:total}</text>
-      <text lang="jp">要素数 : {binding:total}</text>
-      <text lang="ko">요소 수 : {binding:total}</text>
-      <text lang="nl">Aantal elementen : {binding:total}</text>
-      <text lang="pl">Liczba elementów : {binding:total}</text>
-      <text lang="pt">Número de elementos : {binding:total}</text>
-      <text lang="pt_BR">Número de elementos : {binding:total}</text>
-      <text lang="ru">Количество элементов : {binding:total}</text>
-      <text lang="uk">Кількість елементів : {binding:total}</text>
-      <text lang="zh">元素的数量 : {binding:total}</text>      
+      <text lang="fr">Nombre d'élements: {binding:total}</text>
+      <text lang="hu">Elemek száma: {binding:total}</text>
+      <text lang="it">Numero di elementi: {binding:total}</text>
+      <text lang="jp">要素数: {binding:total}</text>
+      <text lang="ko">요소 수: {binding:total}</text>
+      <text lang="nl">Aantal elementen: {binding:total}</text>
+      <text lang="pl">Liczba elementów: {binding:total}</text>
+      <text lang="pt">Número de elementos: {binding:total}</text>
+      <text lang="pt_BR">Número de elementos: {binding:total}</text>
+      <text lang="ru">Количество элементов: {binding:total}</text>
+      <text lang="uk">Кількість елементів: {binding:total}</text>
+      <text lang="zh">元素的数量: {binding:total}</text>      
     </text>
   </view>
 </theme>

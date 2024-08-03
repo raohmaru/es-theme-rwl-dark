@@ -264,7 +264,7 @@
       <size>0.03 0.03</size>
       <pos>0.976 0.54</pos>
       <alignment>center</alignment>
-      <fontSize>0.015</fontSize>
+      <fontSize>0.013</fontSize>
       <color>dddddd</color>
     </text>
     <image name="md_hidden">

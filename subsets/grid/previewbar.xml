@@ -44,6 +44,7 @@
       <origin>0.5 0.5</origin>
       <pos>0.808 0.22</pos>
       <size>0.27 0</size>
+      <fontSize>0.030</fontSize>
     </text>
     <text name="md_developer">
       <color>EFEFFF</color>

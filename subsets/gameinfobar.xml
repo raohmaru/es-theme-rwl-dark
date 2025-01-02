@@ -275,6 +275,19 @@
       <color>ff0000</color>
       <zIndex>100</zIndex>
     </image>
+    <text name="system" extra="true">
+      <visible>{game:system} != {system:name}</visible>
+      <origin>0.5 0.5</origin>
+      <fontPath>./../art/fonts/Cabin-Bold.ttf</fontPath>
+      <text>{game:system}</text>
+      <size>0.0475 0.03</size>
+      <pos>0.976 0.76</pos>
+      <alignment>center</alignment>
+      <fontSize>0.015</fontSize>
+      <color>${backgroundColor}</color>
+      <backgroundColor>${baseColor}</backgroundColor>
+      <opacity>0.75</opacity>
+    </text>
     <datetime name="md_releasedate">
       <origin>0.5 1</origin>
       <pos>0.976 0.78</pos>

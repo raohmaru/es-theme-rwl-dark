@@ -404,12 +404,12 @@
                       <pos>0 0</pos>
                       <separator>6</separator>
                       <text name="the_game_name">
-                        <pos>0 0</pos>
+                        <pos>0 -0.1</pos>
                         <origin>0 0</origin>
                         <size>1 0.3</size>
                         <text>{game:nameShort}</text>
                         <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
-                        <fontSize>0.026</fontSize>
+                        <fontSize>0.023</fontSize>
                         <verticalAlignment>bottom</verticalAlignment>
                         <multiLine>false</multiLine>
                         <extraTextColor>707070</extraTextColor>

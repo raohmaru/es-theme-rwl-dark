@@ -19,116 +19,6 @@
     <include name="fanart" displayName="${fanart}"/>
   </subset>
   <customView name="Content" inherits="grid" displayName="${contentViewName}">
-    <!--
-    <image name="gamePage" extra="true">
-      <path>./../art/white.png</path>
-      <pos>0.5 </pos>
-      <origin>0.5 0</origin>
-      <size>1 1</size>
-      <color>000000FF</color>
-      <zIndex>300</zIndex>
-      <y>1</y>
-      <scale>0</scale>
-      <opacity>0</opacity>
-      <storyboard event="open">
-        <animation property="y" to="1"/>
-        <animation property="scale" to="0"/>
-        <animation property="y" to="0" begin="1000" duration="350" mode="easeOut"/>
-        <animation property="opacity" to="1" begin="1000" duration="350" mode="easeOut"/>
-        <animation property="scale" to="1" begin="1000" duration="350" mode="easeOut"/>
-      </storyboard>
-      <storyboard event="activate">
-        <animation property="y" to="1"/>
-        <animation property="scale" to="0"/>
-        <animation property="y" to="0" begin="1000" duration="350" mode="easeOut"/>
-        <animation property="opacity" to="1" begin="1000" duration="350" mode="easeOut"/>
-        <animation property="scale" to="1" begin="1000" duration="350" mode="easeOut"/>
-      </storyboard>
-      <storyboard event="deactivate">
-        <animation property="opacity" to="0" duration="250" mode="easeOut"/>
-        <animation property="scale" to="0.2" duration="250" mode="easeOut"/>
-      </storyboard>
-      <image name="mySB">
-        <visible>!exists({game:video})</visible>
-        <path>exists({game:fanart}) ? {game:fanart} : {game:image}</path>
-        <pos>0.5 0.25</pos>
-        <origin>0.5</origin>
-        <minSize>1 0.50</minSize>
-        <linearSmooth>true</linearSmooth>
-        <color>FFFFFFFF</color>
-        <colorEnd>000000FF</colorEnd>
-        <gradientType>vertical</gradientType>
-        <storyboard repeat="forever" event="activate">
-          <animation property="color" to="red" duration="3500" mode="easeOut"/>
-          <animation property="color" to="FFFFFFFF" begin="3500" duration="3500" mode="easeOut"/>
-        </storyboard>
-      </image>
-      <video>
-        <visible>exists({game:video})</visible>
-        <path>{game:video}</path>
-        <pos>0.5 0.25</pos>
-        <origin>0.5</origin>
-        <minSize>1 0.50</minSize>
-        <linearSmooth>false</linearSmooth>
-        <color>FFFFFFFF</color>
-        <colorEnd>000000FF</colorEnd>
-        <gradientType>vertical</gradientType>
-        <enabled>false</enabled>
-        <storyboard event="activate">
-          <animation property="enabled" to="false"/>
-          <animation begin="1000" property="enabled" to="true"/>
-        </storyboard>
-        <storyboard event="deactivate">
-          <animation property="enabled" to="false"/>
-        </storyboard>
-      </video>
-      <image>
-        <path>./../art/white.png</path>
-        <pos>0.5 0.25</pos>
-        <origin>0.5</origin>
-        <size>1 0.50</size>
-        <color>00000001</color>
-        <colorEnd>000000FF</colorEnd>
-        <gradientType>vertical</gradientType>
-        <zIndex>50</zIndex>
-      </image>
-      <image>
-        <path>{game:marquee}</path>
-        <pos>0.1 0.20</pos>
-        <origin>0 0.5</origin>
-        <maxSize>0.3 0.30</maxSize>
-        <color>FFFFFFFF</color>
-        <zIndex>51</zIndex>
-      </image>
-      <image name="myBox">
-        <path>{game:thumbnail}</path>
-        <pos>0.87 0.25</pos>
-        <origin>0.5</origin>
-        <maxSize>0.2 0.36</maxSize>
-        <linearSmooth>true</linearSmooth>
-        <zIndex>52</zIndex>
-      </image>
-      <text>
-        <pos>0.2 0.58</pos>
-        <size>0.6 0.32</size>
-        <text>{game:desc}</text>
-        <color>FFFFFFA0</color>
-        <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
-        <fontSize>0.032</fontSize>
-        <autoScroll>false</autoScroll>
-        <multiLine>true</multiLine>
-        <lineSpacing>1.25</lineSpacing>
-        <autoScrollDelay>4000</autoScrollDelay>
-        <verticalAlignment>top</verticalAlignment>
-        <storyboard event="activate" ifSubset="previewbar:no">
-          <animation property="autoScroll" to="vertical"/>
-        </storyboard>
-        <storyboard event="deactivate" ifSubset="previewbar:no">
-          <animation property="autoScroll" to="false"/>
-        </storyboard>
-      </text>
-    </image>
-    -->
     <imagegrid name="gamegrid">
       <autoLayout>3 4</autoLayout>
       <autoLayout if="${simpleMode}">3 5</autoLayout>
@@ -142,19 +32,6 @@
           <size>1 1</size>
           <padding>0 0 0 3</padding>
           <opacity>1</opacity>
-          <!--
-          <storyboard event="activate">
-            <animation property="opacity" to="1"/>
-          </storyboard>
-          <storyboard event="deactivate">
-            <animation property="opacity" to="1" duration="150" mode="Linear"/>
-            <animation property="opacity" to="0" begin="1000" duration="250" mode="Linear"/>
-          </storyboard>
-          <storyboard event="scroll">
-            <animation property="opacity" to="1" duration="150" mode="Linear"/>
-            <animation property="opacity" to="0" begin="1000" duration="250" mode="Linear"/>
-          </storyboard>
-          -->
           <container>
             <image>
               <path>./../art/white.png</path>

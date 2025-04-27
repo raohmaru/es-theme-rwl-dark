@@ -8,12 +8,12 @@
   </customView>
   <customView name="Carousel,Boxes,Tiles,Icons,grid,Content">
     <image name="gamelistBackground" extra="true">
-      <path>./../../art/filter.png</path>
-      <color>000000A0</color>
+      <path>./../../art/previewbar.jpg</path>
+      <color>FFFFFF33</color>
       <origin>0 0</origin>
       <pos>0.663 0.16</pos>
       <size>0.337 0.774</size>
-      <size ifSubset="gameBar:yes">0.29 0.774</size>
+      <size ifSubset="gameBar:yes">0.287 0.774</size>
       <zIndex>12</zIndex>
     </image>
     <image name="gamelistLineZ" extra="true">
@@ -46,9 +46,21 @@
       <size>0.27 0</size>
       <fontSize>0.030</fontSize>
     </text>
+    <image name="devGenreLine" extra="true">
+      <pos>0.663 0.8652</pos>
+      <origin>0 0</origin>
+      <size>0.2875 0.0035</size>
+      <path>${themePath}/art/white.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>55</zIndex>
+    </image>
+    <image name="devGenreLine" extra="true" ifSubset="gameBar:no">
+      <pos>0.663 0.878</pos>
+      <size>0.34 0.0035</size>
+    </image>
     <text name="md_developer">
       <color>EFEFFF</color>
-      <pos>0.705 0.875</pos>
+      <pos>0.705 0.882</pos>
       <size>0.28 0.05</size>
       <alignment>left</alignment>
       <fontSize>0.025</fontSize>
@@ -76,7 +88,7 @@
       <effect>size</effect>
       <shader>
         <path>:/shaders/border.glsl</path>
-        <cornerRadius>0.07</cornerRadius>
+        <cornerRadius>0.03</cornerRadius>
         <borderSize>0.014</borderSize>
         <borderColor>${gradientEndColor}</borderColor>
         <innerShadowSize>0.01</innerShadowSize>
@@ -93,7 +105,7 @@
       <pos>0.68 0.678</pos>
       <size>0.30 0.20</size>
       <fontSize>0.025</fontSize>
-      <color>A0A0B0</color>
+      <color>dddddd</color>
       <lineSpacing>1.3</lineSpacing>
     </text>
     <text name="md_description" ifSubset="gameBar:yes">
@@ -102,7 +114,7 @@
       <size>0.26 0.2</size>
     </text>
     <rating name="md_rating" ifSubset="gameBar:no">
-      <pos>0.9 0.886</pos>
+      <pos>0.9 0.892</pos>
       <size>0.085 0.03</size>
       <color>FFFF00</color>
       <unfilledColor>808080</unfilledColor>
@@ -126,7 +138,7 @@
     </image>
     <image name="md_flag" ifSubset="gameBar:no">
       <origin>0 0.5</origin>
-      <pos>0.68 0.9</pos>
+      <pos>0.68 0.907</pos>
       <maxSize>0.02 0.05</maxSize>
     </image>
     <imagegrid name="gamegrid">

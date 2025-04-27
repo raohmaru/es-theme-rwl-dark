@@ -49,7 +49,6 @@ originally based on: "simple" by nils bonenberger
       <zIndex>30</zIndex>
       <defaultSnapshot>./../art/grid/defgame.png</defaultSnapshot>
       <loops>0</loops>
- 
       <!--<roundCorners>0.02</roundCorners>-->
       <effect>size</effect>
       <shader>
@@ -92,45 +91,23 @@ originally based on: "simple" by nils bonenberger
       <zIndex>11</zIndex>
     </image>
     <image name="detailsBk" extra="true">
-      <path>./../art/filter.png</path>
-      <color>00000040</color>
-      <colorEnd>00000000</colorEnd>
-      <gradientType>horizontal</gradientType>
+      <path>./../art/previewbar.jpg</path>
+      <color>FFFFFF33</color>
       <origin>0 0</origin>
-      <pos>0.53 0.16</pos>
-      <size>0.4 0.774</size>
+      <pos>0.531 0.16</pos>
+      <size>0.469 0.774</size>
+      <size ifSubset="gameBar:yes">0.42 0.774</size>
       <zIndex>12</zIndex>
     </image>
-    <!--
-    <image name="detailsBkR" extra="true">
-      <path>./../art/filter.png</path>
-      <color>00000000</color>
-      <colorEnd>00000010</colorEnd>
-      <gradientType>horizontal</gradientType>
-      <origin>0 0</origin>
-      <pos>0.525 0.16</pos>
-      <size>0.005 0.774</size>
-      <size ifHelpPrompts="false">0.005 0.84</size>
-      <zIndex>12</zIndex>
-    </image>-->
     <image name="detailsBkLine" extra="true">
       <path>./../art/white.png</path>
       <color>${glowColor}</color>
-<colorEnd>00000010</colorEnd>
-      <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.528 0.16</pos>
       <size>0.003 0.775</size>
       <size ifHelpPrompts="false">0.003 0.84</size>
       <zIndex>14</zIndex>
     </image>
-    <!-- 
-    <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
-      <storyboard>
-        <animation property="opacity" from="0" duration="350" mode="easeOut"/>
-      </storyboard>
-    </text>
-    -->
     <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
@@ -198,7 +175,7 @@ originally based on: "simple" by nils bonenberger
     <text name="md_description">
       <pos>0.55 0.7</pos>
       <size>0.43 0.16</size>
-      <color>C0C0C0</color>
+      <color>dddddd</color>
       <forceUppercase>0</forceUppercase>
       <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
       <fontSize>0.023</fontSize>
@@ -229,14 +206,14 @@ originally based on: "simple" by nils bonenberger
       <color>969696</color>
       <zIndex>15</zIndex>
     </image>
-    <!--
-    <image name="md_favorite">
-      <pos>0.975 0.21</pos>
-      <maxSize>0.02 0.03</maxSize>      
-      <path>./../art/favorite.svg</path>
-      <origin>0.5 0.5</origin>
-      <color>969696</color>
-      <zIndex>60</zIndex>
-    </image>-->
+    <image name="devGenreLine" extra="true">
+      <pos>0.531 0.862</pos>
+      <origin>0 0</origin>
+      <size>0.469 0.0035</size>
+      <size ifSubset="gameBar:yes">0.419 0.0035</size>
+      <path>${themePath}/art/white.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>55</zIndex>
+    </image>
   </view>
 </theme>

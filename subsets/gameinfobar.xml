@@ -14,12 +14,12 @@
     </image>
     <image name="iconsLine" extra="true" ifHelpPrompts="true">
       <path>./../art/white.png</path>
-      <color>${glowColor}</color>
+      <color>${centerFadeColor}</color>
       <colorEnd>00000000</colorEnd>
       <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.95 0.16</pos>
-      <size>0.003 0.80</size>
+      <size>0.05 0.80</size>
       <zIndex>14</zIndex>
     </image>
     <rating name="md_rating">
@@ -33,165 +33,6 @@
       <horizontalAlignment>right</horizontalAlignment>
       <zIndex>15</zIndex>
     </rating>
-    <!--
-    <image name="testimgbinding" extra="true">
-      <pos>0 0</pos>
-      <size>0.2 0.2</size>
-      <origin>0 0</origin>
-      <path>{game:image}</path>
-    </image>
-    
-    <video name="testvidbinding" extra="true">
-      <pos>0.2 0</pos>
-      <size>0.2 0.2</size>
-      <origin>0 0</origin>
-      <path>{game:video}</path>
-    </video>
-
-    <text name="testtextbinding" extra="true">
-      <pos>0 0</pos>
-      <size>1 0.2</size>
-      <text>{game:video}</text>
-      <color>FFFFFFFF</color>
-    </text>
--->
-<!--
-    <stackpanel name="stack" extra="true">
-      <pos>0.67 0.05</pos>
-      <size>0.30 0.035</size>
-      <orientation>horizontal</orientation>
-      <reverse>true</reverse>
-      <clock name="stack.clock">
-        <fontSize>0.032</fontSize>
-        <color>FFFFFFFF</color>
-        <padding>6 0</padding>
-      </clock>
-      <batteryText name="stack.batterytext">
-        <fontSize>0.024</fontSize>
-        <color>FFFFFFFF</color>
-        <padding>4 0</padding>
-      </batteryText>
-      <batteryIcon name="stack.battery">
-        <incharge>./art/battery/incharge.svg</incharge>
-        <full>./art/battery/full.svg</full>
-        <at75>./art/battery/75.svg</at75>
-        <at50>./art/battery/50.svg</at50>
-        <at25>./art/battery/25.svg</at25>
-        <empty>./art/battery/empty.svg</empty>
-        <planemodeIcon>./art/icons/Planemode.png</planemodeIcon>
-        <maxSize>1 1</maxSize>
-        <linearSmooth>true</linearSmooth>
-        <padding>2 1</padding>
-      </batteryIcon>
-
-      <networkIcon name="stack.network">
-        <networkIcon>./../art/icons/Network.png</networkIcon>
-        <planemodeIcon>./../art/icons/Planemode.png</planemodeIcon>
-        <maxSize>1 1</maxSize>
-        <linearSmooth>true</linearSmooth>
-        <padding>1 1</padding>
-      </networkIcon>
-
-      <text name="stack.separator2">
-        <text>-</text>
-        <alignment>center</alignment>
-        <fontSize>0.022</fontSize>
-        <color>FF000000</color>
-      </text>
-
-
-      <text name="stack.czecez">
-        <visible>{global:cheevos}</visible>
-        <text>{global:cheevosUser}</text>
-        <alignment>center</alignment>
-        <fontSize>0.022</fontSize>
-        <color>FFFFFFFF</color>
-      </text>
-
-      <webImage name="stack.cheevosimg">
-        <visible>{global:cheevos}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>2 2</padding>
-        <path>https://media.retroachievements.org/UserPic/{global:cheevosUser}.png</path>
-        <maxSize>1 1</maxSize>
-        <color>FFFFFFFF</color>
-      </webImage>
-
-      <text name="stack.separator1">
-        <text>-</text>
-        <alignment>center</alignment>
-        <fontSize>0.022</fontSize>
-        <color>FF000000</color>
-      </text>
-
-     
-      <text name="stack.players">
-        <fontPath>./../art/fonts/players.ttf</fontPath>
-        <text>{game:playerCount}</text>
-        <alignment>center</alignment>
-        <fontSize>0.032</fontSize>
-        <color>dddddd</color>
-        <padding>10 0</padding>
-      </text>
-      <image name="stack.manual">
-        <visible>{game:hasManual}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/book.png</path>
-        <maxSize>1 1</maxSize>
-        <color>dddddd</color>
-      </image>
-      <image name="stack.nomanual">
-        <visible>!{game:hasManual}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/book.png</path>
-        <maxSize>1 1</maxSize>
-        <color>80808040</color>
-      </image>
-      <image name="stack.cheevos">
-        <visible>{game:cheevos}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/icons/Contest.png</path>
-        <maxSize>1 1</maxSize>
-        <color>dddddd</color>
-      </image>
-      <image name="stack.nocheevos">
-        <visible>!{game:cheevos}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/icons/Contest.png</path>
-        <maxSize>1 1</maxSize>
-        <color>80808040</color>
-      </image>
-      <image name="stack.savestate">
-        <visible>{game:hasSaveState}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/icons/SaveState.png</path>
-        <maxSize>1 1</maxSize>
-        <color>dddddd</color>
-      </image>
-      <image name="stack.kidgame">
-        <visible>{game:kidGame}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/kid.svg</path>
-        <color>dddddd</color>
-        <maxSize>1 1</maxSize>
-        <linearSmooth>true</linearSmooth>
-      </image>
-      <image name="stack.hidden">
-        <visible>{game:hidden}</visible>
-        <linearSmooth>true</linearSmooth>
-        <padding>4 4</padding>
-        <path>./../art/hidden.svg</path>
-        <maxSize>1 1</maxSize>
-        <color>ff0000</color>
-      </image>
-    </stackpanel>
--->    
     <text name="md_players">
       <origin>0.5 0.5</origin>
       <fontPath>./../art/fonts/players.ttf</fontPath>
@@ -280,12 +121,14 @@
       <origin>0.5 0.5</origin>
       <fontPath>./../art/fonts/CabinCondensed-Bold.ttf</fontPath>
       <text>{game:system}</text>
-      <size>0.0475 0.03</size>
-      <pos>0.976 0.76</pos>
+      <size>0.0495 0.03</size>
+      <pos>0.9745 0.76</pos>
       <alignment>center</alignment>
       <fontSize>0.02</fontSize>
-      <color>${backgroundColor}</color>
-      <backgroundColor>${baseColor}</backgroundColor>
+      <color>${baseColor}</color>
+      <backgroundColor>${centerFadeColor}</backgroundColor>
+      <forceUppercase>true</forceUppercase>
+      <zIndex>100</zIndex>
     </text>
     <datetime name="md_releasedate">
       <origin>0.5 1</origin>

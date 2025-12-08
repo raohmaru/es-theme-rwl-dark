@@ -64,7 +64,7 @@ originally based on: "simple" by nils bonenberger
     <image name="BottomBar" extra="static">
       <tile>false</tile>
       <size>1 0.065</size>
-      <pos>0 1</pos>
+      <pos>0 1.015</pos>
       <origin>0 1</origin>
       <path>./../art/bottom.png</path>
       <color>${bottomBarColor}</color>
@@ -96,7 +96,7 @@ originally based on: "simple" by nils bonenberger
         <zIndex>100</zIndex>
         <color>D0D0D0FF</color>
         <glowColor>00000080</glowColor>
-        <glowSize>1</glowSize>
+        <glowSize>4</glowSize>
 
         <fontSize tinyScreen="true">0.065</fontSize>
         <glowSize tinyScreen="true">1</glowSize>
@@ -106,14 +106,14 @@ originally based on: "simple" by nils bonenberger
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
-        <fontSize>0.024</fontSize>
+        <fontSize>0.028</fontSize>
         <pos>0.03 0.12</pos>
         <pos verticalScreen="true">0.03 0.10</pos>         
         <size>0.94 0.28</size>
         <zIndex>100</zIndex>
         <color>D0D0D0FF</color>
         <glowColor>000000A0</glowColor>
-        <glowSize>1</glowSize>
+        <glowSize>2</glowSize>
         
         <pos tinyScreen="true">0.03 0.13</pos>
         <glowColor tinyScreen="true">00000040</glowColor>
@@ -125,13 +125,13 @@ originally based on: "simple" by nils bonenberger
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.024</fontSize>
-        <pos>0.03 0.157</pos>
+        <pos>0.03 0.165</pos>
         <pos verticalScreen="true">0.03 0.127</pos>         
         <size>0.94 0.28</size>        
         <zIndex>100</zIndex>
         <color>D0D0D0FF</color>
         <glowColor>000000A0</glowColor>
-        <glowSize>1</glowSize>
+        <glowSize>2</glowSize>
                 
         <pos tinyScreen="true">0.03 0.19</pos>
         <glowColor tinyScreen="true">00000040</glowColor>

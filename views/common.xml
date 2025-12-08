@@ -10,7 +10,7 @@ originally based on: "simple" by nils bonenberger
   <formatVersion>7</formatVersion>
   <view name="basic, detailed, grid, gamecarousel">
     <image name="bottom" extra="true">
-      <pos>0 1</pos>
+      <pos>0 1.015</pos>
       <origin>0 1</origin>
       <size>1 0.065</size>
       <path>${themePath}/art/bottom.png</path>

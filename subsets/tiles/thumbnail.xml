@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <customView name="Tiles">
+    <ninepatch name="gridtile.background">
+      <edgeColor>00000000</edgeColor>
+      <centerColor>00000000</centerColor>            
+    </ninepatch>
+    <gridtile name="default">
+      <imageColor>00000000</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <imageColor>00000000</imageColor>
+    </gridtile>
+    <image name="gridtile.marquee">
+      <color>FFFFFFFF</color>
+      <size>0.70 0.70</size>
+    </image>
+    <image name="gridtile.marquee:selected">
+      <size>0.85 0.85</size>
+    </image>
+  </customView>
+</theme>

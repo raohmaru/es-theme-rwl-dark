@@ -34,6 +34,7 @@ languages and missing systems (batocera v36): by maioni
     <orientationSubsetName>Orientation</orientationSubsetName>
     <videosSubsetName>Videos</videosSubsetName>
     <logosSubsetName>Logos</logosSubsetName>
+    <thumbnailSubsetName>Thumbnails</thumbnailSubsetName>
     <systemViewExInfos>Extended system informations</systemViewExInfos>
     <animationsSubsetName>Transition Animations</animationsSubsetName>
     <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
@@ -240,6 +241,10 @@ languages and missing systems (batocera v36): by maioni
   <subset name="marqueetiles" displayName="${logosSubsetName}" appliesTo="Tiles">
     <include name="yes" displayName="${yes}">./subsets/tiles/marquee.xml</include>
     <include name="no" displayName="${no}"/>
+  </subset> 
+  <subset name="thumbnailtiles" displayName="${thumbnailSubsetName}" appliesTo="Tiles">
+    <include name="yes" displayName="${yes}"/>
+    <include name="no" displayName="${no}">./subsets/tiles/thumbnail.xml</include>
   </subset>  
  	<subset name="carouselimagesource" displayName="${gamecarouseltype}" appliesTo="gamecarousel">
 		<include name="marquee" displayName="${marquee}">./subsets/carouselimagesource/marquee.xml</include>

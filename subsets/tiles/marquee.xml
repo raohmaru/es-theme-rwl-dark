@@ -2,9 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
   <customView name="Tiles">
-    <gridtile name="default">
-      <imageColor>A0A0A0FF</imageColor>
-    </gridtile>
     <image name="gridtile.marquee">
       <color>FFFFFFD0</color>
       <pos>0.5 0.5</pos>

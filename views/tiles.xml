@@ -37,7 +37,7 @@
       <backgroundEdgeColor>40404080</backgroundEdgeColor>
       <padding>5 5</padding>
       <imageSizeMode>minSize</imageSizeMode>
-      <imageColor>A0A0A0FF</imageColor>
+      <imageColor>FFFFFF77</imageColor>
       <backgroundCornerSize>0.021</backgroundCornerSize>
     </gridtile>
     <gridtile name="selected">
@@ -45,17 +45,6 @@
       <imageColor>FFFFFFFF</imageColor>
       <backgroundCornerSize>0.021</backgroundCornerSize>
     </gridtile>
-    <!--
-    <image name="gridtile.overlay">
-      <roundCorners>0.020</roundCorners>
-      <path>./art/overlay.png</path>
-      <color>FFFFFF70</color>
-    </image>
-
-     <image name="gridtile.overlay:selected">
-      <color>FFFFFF20</color>
-    </image>
-    -->
     <image name="gridtile.image">
       <roundCorners>0.020</roundCorners>
     </image>
